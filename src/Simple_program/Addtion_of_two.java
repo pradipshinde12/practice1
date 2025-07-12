@@ -9,9 +9,10 @@ public class Addtion_of_two {
 		int n1 = sc.nextInt();
 		int n2 = sc.nextInt();
 
-		int c = n1 + n2;
+		int c = n1 -n2;
 
-		System.out.println(" the addition of two number is : ");
+		System.out.println(" the substraction of two number is : "+ c);
+		
 
 	}
 

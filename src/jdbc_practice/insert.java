@@ -1,9 +1,6 @@
 package jdbc_practice;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-
+import java.sql.*;
 public class insert 
 {
 	public static void main(String args[])
@@ -11,7 +8,7 @@ public class insert
 		
 		String url="jdbc:mysql://localhost:3306/jdbc_db";
 		String uname="root";
-		String password="pradip@123";
+		String password="pradip@1234.";
 		String query="insert into emp2 values(?,?,?)";
 		try
 		{
